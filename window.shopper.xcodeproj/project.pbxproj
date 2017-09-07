@@ -14,6 +14,7 @@
 		71B4EB711F60787B004F71EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B4EB6F1F60787B004F71EE /* LaunchScreen.storyboard */; };
 		71B4EB7C1F60787C004F71EE /* window_shopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B4EB7B1F60787C004F71EE /* window_shopperTests.swift */; };
 		71B4EB871F60787C004F71EE /* window_shopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B4EB861F60787C004F71EE /* window_shopperUITests.swift */; };
+		71B4EB981F60F61F004F71EE /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B4EB971F60F61F004F71EE /* CurrencyTxtField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		71B4EB821F60787C004F71EE /* window.shopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = window.shopperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B4EB861F60787C004F71EE /* window_shopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = window_shopperUITests.swift; sourceTree = "<group>"; };
 		71B4EB881F60787C004F71EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B4EB971F60F61F004F71EE /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		71B4EB961F60792A004F71EE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				71B4EB971F60F61F004F71EE /* CurrencyTxtField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71B4EB981F60F61F004F71EE /* CurrencyTxtField.swift in Sources */,
 				71B4EB691F60787B004F71EE /* MainVC.swift in Sources */,
 				71B4EB671F60787B004F71EE /* AppDelegate.swift in Sources */,
 			);
